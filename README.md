@@ -1,51 +1,46 @@
-💳 Credit Card Fraud Detection — Web Demo (HTML • CSS • JavaScript)
-A browser-based Credit Card Fraud Detection demo application built using vanilla HTML, CSS, and JavaScript.
-This project simulates fraud detection using rule-based logic and real-time input validation to classify transactions as safe or suspicious.
 
-Designed as a lightweight front-end prototype to demonstrate fraud detection concepts and interactive UI behavior.
+💳 Credit Card Fraud Detection — Frontend Web App
+A browser-based Credit Card Fraud Detection demo built using HTML, CSS, and JavaScript that simulates fraud risk analysis using rule-based logic and real-time validation.
 
-🚀 Features
-💳 Credit card transaction input form
+This project demonstrates practical understanding of fraud detection concepts, client-side validation, and interactive UI design through a lightweight, fully functional web prototype.
 
-⚡ Real-time fraud risk evaluation
+🔥 Features
+⚡ Real-time transaction risk evaluation
+
+💳 Credit card input & validation form
 
 🧠 Rule-based fraud detection logic
 
-📊 Risk score / suspicious flag output
+🚨 Suspicious transaction flagging
 
-✅ Client-side validation
+📊 Risk result display panel
 
-🎨 Clean responsive UI
+✅ Client-side input validation
 
-🔍 Instant result without page reload
+🎨 Clean and responsive UI
 
-🧪 Test transaction scenarios supported
+🔄 Instant results without page reload
+
+🧪 Multiple fraud scenario testing
 
 🛠 Tech Stack
+Frontend
+
 HTML5
 
 CSS3
 
 JavaScript (Vanilla JS)
 
-DOM Manipulation
+Concepts Used
 
-Client-side validation logic
+DOM manipulation
 
-🧠 Detection Logic (Rule-Based)
-The system flags transactions based on configurable rules such as:
+Form validation
 
-Unusually high transaction amount
+Rule-based scoring logic
 
-Rapid repeated transactions
-
-Invalid card pattern
-
-Suspicious CVV/expiry combinations
-
-Location or time-based risk indicators (if implemented)
-
-This is a simulation model — not a production ML fraud engine.
+Event handling
 
 📂 Project Structure
 Code
@@ -53,14 +48,14 @@ Code
 
 credit-card-fraud-detection/
 │
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-▶️ How to Run
+├── index.html        → Main UI layout
+├── style.css         → Styling & responsive design
+├── script.js         → Fraud detection logic
+└── assets/           → Icons / images (if any)
+▶️ Getting Started
 No installation required.
 
-Just open:
+Run locally by opening:
 
 Code
 
@@ -68,57 +63,79 @@ Code
 index.html
 in your browser.
 
-OR use Live Server in VS Code.
+Recommended:
 
-🧪 Example Test Cases
-Try inputs like:
+Use VS Code Live Server for best testing experience
 
-Very large transaction amount
+🧠 Detection Method Used
+This project uses a rule-based fraud detection model instead of ML.
+Transactions are marked suspicious based on conditions like:
 
-Invalid card number length
+Very high transaction amount
 
-Multiple rapid submissions
+Invalid card number pattern
 
 Expired card date
 
-Observe how the system flags risk.
+Incorrect CVV format
 
-🎯 Learning Objectives
+Rapid repeated submissions
+
+Risk threshold scoring
+
+This is a simulation prototype — not a production banking system.
+
+🧪 Test Scenarios
+Try entering:
+
+Extremely high amounts
+
+Wrong card number length
+
+Expired dates
+
+Multiple rapid submissions
+
+Observe how fraud status changes.
+
+📈 Why This Project Matters
 This project demonstrates:
 
-Frontend form handling
+Practical fraud detection concepts
 
-JavaScript decision logic
+JavaScript decision logic design
 
-Fraud detection concepts
-
-Real-time UI feedback
-
-Input validation strategies
+Real-time form validation
 
 Risk scoring approach
 
-Clean UI structuring
+Clean UI + UX thinking
 
-🔮 Possible Future Improvements
-Add ML model integration
+Frontend problem-solving skills
+
+Security-oriented input handling
+
+🚀 Possible Future Improvements
+Integrate ML fraud prediction model
 
 Connect to backend API
 
 Store transaction history
 
-Risk score visualization chart
+Add fraud risk charts
 
-Admin fraud dashboard
+Admin monitoring dashboard
 
-Geo-location risk check
+Geo-location anomaly checks
 
-Behavior-based anomaly detection
+Behavioral pattern tracking
 
 👨‍💻 Author
 Kunal Tyagi
 B.Tech — Full Stack & Machine Learning Focus
-Open to internships and developer roles
+Open to internships & developer roles
 
-⭐ If you found this useful
+⭐ Support
+If you found this project useful, consider giving it a ⭐ and sharing feedback.
+
 Give the repo a star and feel free to fork & improve it.
