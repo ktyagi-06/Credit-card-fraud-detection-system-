@@ -1,0 +1,32 @@
+# Data
+data/*.csv
+data/processed/
+!data/.gitkeep
+
+# Models
+models/*.pkl
+models/*.h5
+models/*.joblib
+!models/.gitkeep
+
+# Reports
+reports/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
