@@ -103,7 +103,21 @@ Run `src/evaluate.py` to regenerate this table with your actual data — these n
 - The synthetic generator approximates the real dataset's statistical shape but isn't a substitute for real transaction data — always validate on the real Kaggle set (or your own data) before drawing conclusions.
 - No temporal/online-learning component: real fraud patterns drift over time, which this batch-trained setup doesn't model.
 - No cost-sensitive optimization tied to actual dollar amounts (a missed $10,000 fraud and a missed $10 fraud are treated the same by standard classification metrics).
+## 🚀 Live Demo
 
+Try the deployed application here:
+
+**[💳 Launch Credit Card Fraud Detection App](https://credit-card-fraudetection.streamlit.app/#credit-card-fraud-detection-demo)
+
+The application allows users to:
+- Select a machine learning model: XGBoost, Random Forest, or Logistic Regression.
+- Upload a CSV file containing transaction features.
+- Generate fraud probabilities and flag potentially fraudulent transactions.
+- View prediction results and download the scored CSV.
+
+**Tech Stack:** Python · Streamlit · Scikit-learn · XGBoost · Pandas · NumPy
+
+> **Note:** This project is intended for educational and demonstration purposes. The generated synthetic dataset does not establish real-world fraud detection performance.
 ## License
 
 MIT — see [LICENSE](LICENSE).
