@@ -116,8 +116,6 @@ The application allows users to:
 - View prediction results and download the scored CSV.
 
 **Tech Stack:** Python · Streamlit · Scikit-learn · XGBoost · Pandas · NumPy
-
-> **Note:** This project is intended for educational and demonstration purposes. The generated synthetic dataset does not establish real-world fraud detection performance.
 ## License
 
 MIT — see [LICENSE](LICENSE).
